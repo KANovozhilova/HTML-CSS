@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Naruto Shop</title>
+    <style type="text/css">
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-wrap {
+            min-height: 100%;
+            margin-bottom: -40px;
+        }
+
+        .page-wrap:after {
+            content: "";
+            display: block;
+        }
+    
+        .site-footer,
+        .page-wrap:after {
+            height: 40px;
+        }
+        
+    </style>
+</head>
+
+<body>
+	<div class="page-wrap">
+        <header style="text-align: center;">
+            <img src="img/top.png">
+        </header>
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a>
+                <ul><a href="catalog/product1.html">Плакат &laquo;Наруто&amp;Боруто&raquo;</a><br></ul>
+                <ul><a href="catalog/product2.html">Плакат &laquo;Команды&raquo;</a><br></ul>
+            </li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul><hr>
+        <div align="center">
+            <h2>Наш каталог</h2>
+            <div class="my_catalog">
+                <div class="product1">
+                    <img src="img/1.jpg" height="250px">
+                    <div class="description1">
+                        <a href="catalog/product1.html">Подробнее</a><br><br>
+                    </div>
+                </div>
+                <div class="product2">
+                    <img src="img/2.jpg" height="250px">
+                    <div class="description2">
+                        <a href="catalog/product2.html">Подробнее</a><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <hr style="margin: 0" />
+        <p style="margin: 0; padding: 7px" align="center">All rights reserved &copy;&nbsp;Kseniia Novozhilova</p>
+    </footer>
+</body>
+</html>
